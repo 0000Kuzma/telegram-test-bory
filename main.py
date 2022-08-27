@@ -16,7 +16,7 @@ async def start_command(message):
         req = inp
         if req == "":
             return
-        # волшебная функция калькулятора) - eval
+        # кек
 
         total = (str(eval(req)))
         await bot.send_message(message.chat.id, total)
